@@ -1,0 +1,30 @@
+Distribcuion uniforme
+Imparcialidad: Cada valor dentro del rango tiene la misma probabilidad de ser seleccionado, lo que asegura que no haya sesgo en los datos generados.
+Simplicidad: Es fácil de entender y de implementar, lo que la hace ideal para pruebas iniciales y simulaciones básicas.
+Modelado de sistemas: Se utiliza en simulaciones donde se requiere que todos los eventos posibles tengan la misma probabilidad de ocurrir, como en juegos de azar o en la generación de números aleatorios para algoritmos.
+Pruebas y validación: Ayuda a probar y validar algoritmos y sistemas bajo condiciones controladas y predecibles.
+
+
+Distribucion normal
+Una distribución estadística normal, también conocida como distribución de Gauss o campana de Gauss, es extremadamente útil en la generación de datos aleatorios por varias razones:
+Modelado de fenómenos naturales: Muchos fenómenos naturales y procesos industriales siguen una distribución normal, como las alturas de las personas, los errores de medición y las puntuaciones en exámenes.
+Propiedades matemáticas: La distribución normal tiene propiedades matemáticas convenientes, como la simetría alrededor de la media y la disminución exponencial de la probabilidad a medida que te alejas de la media.
+Teorema Central del Límite: Este teorema establece que la suma de un gran número de variables aleatorias independientes y con la misma distribución tiende a una distribución normal, lo que hace que esta distribución sea fundamental en la estadística.
+Análisis y predicción: Se utiliza en técnicas de análisis y predicción, como la regresión lineal y el análisis de series temporales, debido a su capacidad para modelar datos y hacer inferencias sobre poblaciones.
+
+Distribucion de poisson
+Una distribución estadística de Poisson es muy útil en la generación de datos aleatorios, especialmente en contextos donde se modelan eventos que ocurren de manera independiente y con una tasa constante en el tiempo o el espacio. Aquí te dejo algunas aplicaciones clave:
+Modelado de eventos raros: Es ideal para modelar la ocurrencia de eventos raros, como llamadas telefónicas a un centro de atención, llegadas de clientes a una tienda o fallos en un sistema.
+Procesos de conteo: Se utiliza para contar el número de eventos en intervalos de tiempo o espacio fijos, como el número de autos que pasan por un peaje en una hora.
+Análisis de riesgos: En seguros y finanzas, se usa para modelar la frecuencia de siniestros o reclamaciones.
+Biología y medicina: Ayuda a modelar la distribución de células en un área específica o la aparición de mutaciones genéticas.
+
+
+
+
+
+
+
+
+
+
