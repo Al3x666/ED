@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    //Ejercicio 1
+    const int MAX = 100;
+    int numeros[MAX];
+    int index = 0;
+    while (true)
+    {
+        int num;
+        cout << "coloca tu numero (0 para salir) : " << endl;
+        cin >> num;
+        if (num == 0)
+        {
+            break;
+        }
+        numeros[index] = num;
+        cout << "multiplicalo * 10 : " << numeros[index] * 10 << endl;
+        index++;
+        if (index >= MAX)
+        {
+            cout << "alcanzaste el limite : " << endl;
+            break;
+        }
+    }
+    cout << "porgrama concluido : " << endl;
+}
+
