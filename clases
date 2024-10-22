@@ -1,0 +1,114 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+// class 
+class Alumno
+{
+public:
+	//atributos
+	int numCuenta;
+	string nombreCompleto;
+	int materiasCursadas;
+	int materiasCursando;
+	int materiasPorCursar;
+	//constructor : incializar un objeto
+public:
+	Alumno()
+	{
+		this->numCuenta = 0;
+		this->nombreCompleto = "";
+	}
+	Alumno(int nc, string nombre, int mcursadas, int mcursando, int mpc)
+	{
+		this->numCuenta = nc;
+		this->nombreCompleto = nombre;
+		this->materiasCursadas = mcursadas;
+		this->materiasCursando = mcursando;
+		this->materiasPorCursar = mpc;
+	}
+	//getters
+	int getNumCuenta()
+	{
+		return this->numCuenta; //protege la informacion dentro de la clase
+	}
+	string getNombre()
+	{
+		this->nombreCompleto;
+	}
+	int getMateriasCursadas()
+	{
+		this->materiasCursadas;
+	}
+	int getMateriasCursando()
+	{
+		this->materiasCursando;
+	}
+	int getMateriasPorCursar()
+	{
+		this->materiasPorCursar;
+	}
+
+	//setters
+	void setNumCuenta(int nc)
+	{
+		this->numCuenta = nc;
+	}
+	void setNombreCompleto(string nombre)
+	{
+		this->nombreCompleto = nombre;
+	}
+	void setMateriasCurasadas(int mc)
+	{
+		this->materiasCursadas = mc;
+	}
+	void setMateriaCursando(int mcur)
+	{
+		this->materiasCursando = mcur;
+	}
+	void setMateriasPorCursar(int porcursar)
+	{
+		this->materiasPorCursar = porcursar;
+	}
+
+
+};
+
+int main()
+{
+	Alumno estudiambre;
+	vector <Alumno> alumnos;
+	int nc, mpc, mc, mcursadas;
+	string nombre;
+	nc = 123456;
+	nombre = "Alex";
+	//# alumnos a dar de alta
+	int numAlumnos;
+	cout << "cuantos alumnos : " << endl;
+	cin >> numAlumnos;
+	//ciclo
+	while (numAlumnos > 0)
+	{
+		Alumno::Alumno(nc, nombre, mc, mcursadas, mpc);
+		alumnos.push_back(estudiambre);
+		numAlumnos--;
+	}
+	
+	estudiambre.getNombre();
+	estudiambre.getNumCuenta();
+	alumnos.push_back(estudiambre);
+
+
+	/*Alumno alex;
+	alex.setNombreCompleto("Alex Gutierrez");
+	alex.setNumCuenta(12345);
+	alex.setMateriasCurasadas(24);
+	alex.setMateriaCursando(6);
+	alex.setMateriaCursando(35);
+	cout << alex.getNombre() << endl;
+	cout << alex.getNumCuenta() << endl;
+	cout << alex.getMateriasCursadas() << endl;
+	cout << alex.getMateriasCursando() << endl;
+	cout << alex.getMateriasPorCursar() << endl;*/
+
+
+}
