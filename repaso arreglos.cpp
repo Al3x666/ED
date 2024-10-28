@@ -7,7 +7,8 @@ int main()
 
     // Mostrar los elementos del arreglo
     cout << "Elementos en el arreglo: ";
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 5; i++) 
+    {
         cout << numeros[i] << " ";
     }
     cout << endl;
